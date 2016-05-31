@@ -343,7 +343,6 @@ $buttonSearch_Click={
 }
 
 $datagridviewResults_ColumnHeaderMouseClick=[System.Windows.Forms.DataGridViewCellMouseEventHandler]{
-#Event Argument: $_ = [System.Windows.Forms.DataGridViewCellMouseEventArgs]
 	if($datagridviewResults.DataSource -is [System.Data.DataTable])
 	{
 		$column = $datagridviewResults.Columns[$_.ColumnIndex]
@@ -359,7 +358,6 @@ $datagridviewResults_ColumnHeaderMouseClick=[System.Windows.Forms.DataGridViewCe
 }
 
 $textboxSearch_KeyDown=[System.Windows.Forms.KeyEventHandler]{
-#Event Argument: $_ = [System.Windows.Forms.KeyEventArgs]
 	if($_.KeyCode -eq 'Enter' -and $buttonSearch.Enabled)
 	{
 		SearchGrid	
@@ -368,17 +366,10 @@ $textboxSearch_KeyDown=[System.Windows.Forms.KeyEventHandler]{
 }
 
 $datagridviewResults_CellContentClick=[System.Windows.Forms.DataGridViewCellEventHandler]{
-#Event Argument: $_ = [System.Windows.Forms.DataGridViewCellEventArgs]
-	#TODO: Place custom script here
-	
 }
 
 $textboxSearch_TextChanged={
-	#TODO: Place custom script here
-	
 }
 
 $comboboxFilter_SelectedIndexChanged={
-	#TODO: Place custom script here
-	
 }
