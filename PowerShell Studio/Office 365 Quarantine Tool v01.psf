@@ -191,7 +191,7 @@ RU5ErkJggg==</Preview>
       <Property name="Location">1078, 15</Property>
       <Property name="Name">comboboxFilter</Property>
       <Property name="Size">121, 21</Property>
-      <Property name="TabIndex">7</Property>
+      <Property name="TabIndex">1</Property>
       <Property name="Text">Subject</Property>
       <Property name="ToolTip" extended="True" provider="tooltip1">What field do you want to search?</Property>
       <Event name="SelectedIndexChanged">comboboxFilter_SelectedIndexChanged</Event>
@@ -202,7 +202,7 @@ RU5ErkJggg==</Preview>
       <Property name="Maximum">10000</Property>
       <Property name="Name">numberOfItems</Property>
       <Property name="Size">41, 20</Property>
-      <Property name="TabIndex">6</Property>
+      <Property name="TabIndex">2</Property>
       <Property name="ToolTip" extended="True" provider="tooltip1">Number of messages to return</Property>
       <Property name="Value">20</Property>
     </Object>
@@ -232,7 +232,7 @@ so no need to enter any here.</Property>
       <Property name="Location">1252, 13</Property>
       <Property name="Name">buttonSearch</Property>
       <Property name="Size">75, 23</Property>
-      <Property name="TabIndex">1</Property>
+      <Property name="TabIndex">3</Property>
       <Property name="Text">Search</Property>
       <Property name="UseVisualStyleBackColor">True</Property>
       <Event name="Click">buttonSearch_Click</Event>
@@ -248,7 +248,7 @@ so no need to enter any here.</Property>
       <Property name="Name">datagridviewResults</Property>
       <Property name="ReadOnly">True</Property>
       <Property name="Size">1316, 406</Property>
-      <Property name="TabIndex">2</Property>
+      <Property name="TabIndex">4</Property>
       <Property name="ToolTip" extended="True" provider="tooltip1">Search results here. You can CTRL+C any field you want.</Property>
       <Event name="CellContentClick">datagridviewResults_CellContentClick</Event>
       <Event name="ColumnHeaderMouseClick">datagridviewResults_ColumnHeaderMouseClick</Event>
@@ -258,7 +258,7 @@ so no need to enter any here.</Property>
       <Property name="Location">1253, 454</Property>
       <Property name="Name">buttonExit</Property>
       <Property name="Size">75, 23</Property>
-      <Property name="TabIndex">4</Property>
+      <Property name="TabIndex">7</Property>
       <Property name="Text">Exit</Property>
       <Property name="UseVisualStyleBackColor">True</Property>
       <Event name="Click">buttonExit_Click</Event>
@@ -268,7 +268,7 @@ so no need to enter any here.</Property>
       <Property name="Location">1171, 454</Property>
       <Property name="Name">buttonRelease</Property>
       <Property name="Size">75, 23</Property>
-      <Property name="TabIndex">3</Property>
+      <Property name="TabIndex">6</Property>
       <Property name="Text">Release</Property>
       <Property name="ToolTip" extended="True" provider="tooltip1">This will release a quarantined message based on messageId</Property>
       <Property name="UseVisualStyleBackColor">True</Property>
@@ -652,7 +652,7 @@ $textboxSearch_TextChanged={
 $comboboxFilter_SelectedIndexChanged={
 }
 ]]></Code>
-  <Mode>1</Mode>
+  <Mode>0</Mode>
   <Assemblies>
     <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
     <Assembly>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
