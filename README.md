@@ -17,6 +17,10 @@ I need to confirm these but I believe you need:
 
 No install necessary, just double click .exe. 
 
+### Screenshots
+
+![Get-Credential](/Screenshots/Get-Credential.png?raw=true "Get-Credentials diaglog box")
+
 ## Built With
 
 - PowerShell Studio
