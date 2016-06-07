@@ -20,6 +20,8 @@ No install necessary, just double click .exe.
 ### Screenshots
 
 ![Get-Credential](/Screenshots/Get-Credential.png?raw=true "Get-Credentials diaglog box")
+![Main Window](/Screenshots/Main.png?raw=true "Main window")
+![An example search](/Screenshots/Search.png?raw=true "An example search")
 
 ## Built With
 
