@@ -11,6 +11,7 @@ I need to confirm these but I believe you need:
 
 - .NET 3.5 or above
 - PowerShell v3 or above
+- Set-ExecutionPolicy Unrestricted
 
 ### Installing
 
